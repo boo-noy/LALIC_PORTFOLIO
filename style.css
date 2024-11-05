@@ -1,0 +1,161 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #231f20;
+}
+.hero-page{
+    height: 100vh;
+}
+.navbar{
+    background-color: black;
+    display: flex;
+    padding: 5px 0;
+    align-items: center;
+    justify-content: space-between;  
+    
+}
+.navbar .logo{
+    width: 10%;
+    cursor: pointer;
+    float: left;
+    margin-left: 5%;
+}
+.ul{
+    margin-top: 1%;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+    letter-spacing: 1px;
+    margin: 0 50px;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    transition: .4s ease;
+}
+
+ul li a:hover{
+    color: cyan;
+}
+
+.info{
+   position: absolute;
+   right: 60rem;
+   margin-top: 15%;
+
+}
+h2{
+    font-size: 50px;
+    color: white;
+}
+h1{
+    color: white;
+    font-size: 100px;
+    font-weight: 700;
+}
+h3{
+    margin-top: 10%;
+    font-size: 40px;
+    color: white;
+}
+.profile{
+    width: 40%;
+    margin-top: 5%;
+    float: right;
+    margin-right: 10%;
+    cursor: pointer;
+}
+.habes{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+
+}
+.hb{
+    width: 15%;
+    margin-top: 15%;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    border-bottom:  solid 180px  white;
+    border-top:     solid 10px  white;
+    border-right:   solid 10px  white;
+    border-left:    solid 10px  white;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
+    
+}
+
+
+.Hobbies{
+    padding: 30px;
+    height: 100vh;
+    align-items: center;
+    position: absolute;
+    background-color: #dce1eb;
+}
+.hobbie-content{
+    max-width: 40%;
+}
+.hobbie-content .hobby{
+    position: absolute;
+    text-align: center;
+    margin-top: 5%;
+    color: black;
+    font-size: 60px;
+    font-weight: 600;
+    display: flex;
+    margin-left: 41.5%;
+
+}
+
+.bball{
+    color: black;
+    position: absolute;
+    margin-right: 62.5rem;
+    margin-top: 42rem;
+    font-size: 30px;
+}
+.camp{  
+    color: black;
+    position: absolute;
+    margin-left: 62rem;
+    margin-top: 42rem;
+    font-size: 30px;
+}
+.bill{
+    color: black;
+    position: absolute;
+    margin-left: .5rem;
+    margin-top: 42rem;
+    font-size: 30px;
+}
+.info1{
+    position: absolute;
+    margin-right: 62.5rem;
+    margin-top: 45rem;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 200;
+}
+.info2{
+    position: absolute;
+    margin-left: 62rem;
+    margin-top: 45rem;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 200;
+}
+.info3{
+    position: absolute;
+    margin-left: .5rem;
+    margin-top: 45rem;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 200;
+}
